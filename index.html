@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fancy Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌈 Sorting Algorithm Visualizer</h1>
+
+  <div class="controls">
+    <select id="algorithm">
+      <option value="bubble">Bubble Sort</option>
+      <option value="insertion">Insertion Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="quick">Quick Sort</option>
+      <option value="merge">Merge Sort</option>
+    </select>
+
+    <button onclick="generateArray()">🔁 Generate New Array</button>
+    <button onclick="startSort()">🚀 Start Sorting</button>
+  </div>
+
+  <div class="bar-container" id="bar-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
